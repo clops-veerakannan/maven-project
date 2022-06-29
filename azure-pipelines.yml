@@ -1,4 +1,10 @@
 # Maven
+- task: SonarQubePrepare@5
+  inputs:
+    SonarQube: 'sonar'
+    scannerMode: 'MSBuild'
+    projectKey: '8c405c54efe60c6d589b589e7c8dcce56dc9a389'
+    projectName: 'azure-devops'
 # Build your Java project and run tests with Apache Maven.
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/java
